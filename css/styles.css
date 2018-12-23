@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,350,400');
+
+body{
+	font-family: 'Lato', sans-serif;
+	color: #2d3c49;
+}
+
+.article-link {
+	color: #2d3c49;
+}
+
+footer {
+	border-color: #7d97ad;
+	border-top: 0.1em;
+	border-top-style: solid;
+}
+
+hr {
+	border-color: #7d97ad;
+	border-width: 0.2em;
+}
+
+header{
+	margin: 15px 0 5px 0;
+	overflow: initial;
+}
+
+article{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+i {
+	margin-right: 10px;
+}
+
+footer {
+	margin-top: 10px;
+}
+
+.articles{
+	margin-top: 25px;
+}
+
+.article-title{
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+.logo-detais{
+	float: right;
+	text-align: right;
+}
+
+.logo {
+	float: left;
+	height: 85px;
+}
+
+.logo img {
+	height: 100%;
+}
+
+.img-article{
+	width: 100%;
+	margin-bottom:10px;
+}
+
+.banner{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.banner img{
+	min-width: 100%;
+}
+
+.site-name {
+	margin: 0;
+	font-weight: 300;
+	font-size: 3.1em;
+}
+
+.site-slogan {
+	margin: 0;
+	font-weight: 300;
+	font-size: 1.4em;
+}
+
+.title-section{
+	color: #7d97ad;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.margin-0 {
+	margin: 0;
+}
+
+@media (max-width: 450px) and (orientation: portrait) {
+	.site-name {
+		font-size: 2em;
+	}
+	.site-slogan {
+		font-size: 1em;
+	}
+	.articles h2 {
+		font-size: 1.9em;
+	}
+	.logo {
+		height: 95px;
+	}
+}
+
+@media (min-width: 451px) and (max-width: 780px)  and (orientation: portrait) {
+	.site-name {
+		font-size: 2.5em;
+	}
+	.site-slogan {
+		font-size: 1em;
+	}
+	.articles h2 {
+		font-size: 1.9em;
+	}
+	.logo {
+		height: 115px;
+	}
+}
+
+@media (min-width: 781px) and (max-width: 1024px) and (orientation: portrait) {
+	.site-name {
+		font-size: 4em;
+	}
+	.site-slogan {
+		font-size: 2em;
+	}
+	.articles h2 {
+		font-size: 3em;
+	}
+	.logo {
+		height: 190px;
+	}
+}
