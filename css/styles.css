@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,350,400');
 
-body{
+body {
 	font-family: 'Lato', sans-serif;
 	color: #2d3c49;
 }
@@ -20,12 +20,12 @@ hr {
 	border-width: 0.2em;
 }
 
-header{
+header {
 	margin: 15px 0 5px 0;
 	overflow: initial;
 }
 
-article{
+article {
 	text-align: center;
 	margin-bottom: 15px;
 }
@@ -38,16 +38,16 @@ footer {
 	margin-top: 10px;
 }
 
-.articles{
+.articles {
 	margin-top: 25px;
 }
 
-.article-title{
+.article-title {
 	margin-bottom: 0;
 	font-weight: 400;
 }
 
-.logo-detais{
+.logo-detais {
 	float: right;
 	text-align: right;
 }
@@ -61,7 +61,7 @@ footer {
 	height: 100%;
 }
 
-.img-article{
+.img-article {
 	width: 100%;
 	margin-bottom:10px;
 }
@@ -71,7 +71,7 @@ footer {
     width: 100%;
 }
 
-.banner img{
+.banner img {
 	min-width: 100%;
 }
 
@@ -87,7 +87,7 @@ footer {
 	font-size: 1.4em;
 }
 
-.title-section{
+.title-section {
 	color: #7d97ad;
 	font-weight: 400;
 	margin-bottom: 10px;
